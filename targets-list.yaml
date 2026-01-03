@@ -4,8 +4,8 @@
     job: node_exporter_git
     env: dev
 
-#- targets:
-#    - "localhost:12345"
-#  labels:
-#    job: alloy_exporter_git
-#    env: dev
+- targets:
+    - "localhost:12345"
+  labels:
+    job: alloy_exporter_git
+    env: prod
